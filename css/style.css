@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0b7df0;
+  margin: 0;
+  padding: 0;
+}
+.buttons {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #388E3C;
+}
+
+h1 {
+  text-align: center;              /* Ortala */
+  color: #fff;                     /* Beyaz renk */
+  font-size: 3em;                  /* Büyüklük */
+  text-shadow: 2px 2px 8px #000;   /* Gölge efekti */
+  background: linear-gradient(to right, #ff6a00, #ee0979); /* Yanarlı dönerli degrade */
+  padding: 20px;
+  border-radius: 12px;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+/* Yanarlı dönerli animasyon */
+@keyframes glow {
+  from {
+    box-shadow: 0 0 5px #ff6a00, 0 0 10px #ee0979;
+  }
+  to {
+    box-shadow: 0 0 20px #ff6a00, 0 0 30px #ee0979;
+  }
+}
+
+header {
+  background-color: #0a192f;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #64ffda;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f0f4f3, #e0f2f1);
+  color: #333;
+}
+
+/* Kapsayıcı kutu */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Başlık */
+header h1 {
+  text-align: center;
+  color: #2e7d32;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+/* İçerik */
+.content-box h2 {
+  color: #388e3c;
+  border-bottom: 2px solid #81c784;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.content-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.content-box ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Footer Buton */
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer .button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+footer .button:hover {
+  background-color: #388E3C;
+}
