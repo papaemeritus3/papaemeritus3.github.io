@@ -181,9 +181,27 @@ article {
     </article>
 </section>
 
+<div class="radio-player" id="radioPlayer">
+  <button class="close-btn" onclick="closeRadio()">❌</button>
+  <audio controls>
+    <source src="http://37.247.98.8/stream/166/" type="audio/mpeg">
+    Tarayıcınız ses öğesini desteklemiyor.
+  </audio>
+</div>
 
+<footer class="site-footer">
+  <p>&copy; 2025 Tüm Hakları Saklıdır</p>
+</footer>
 
+<script>
+  function closeRadio() {
+    document.getElementById("radioPlayer").style.display = "none";
+  }
+</script>
 
+<script src="js/zeytin.js"></script>
+
+<div id="zeytin-birikme"></div>
 
 
 
